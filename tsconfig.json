@@ -1,0 +1,25 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  "include": [
+    "src",
+    "auto-imports.d.ts",
+    "components.d.ts",
+    "types/**/*"
+
+  ],
+  "exclude": [
+    "node_modules" 
+    // components.d.ts should not be inside exclude field
+  ]
+}

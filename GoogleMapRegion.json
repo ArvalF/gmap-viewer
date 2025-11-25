@@ -1,0 +1,1026 @@
+[
+  {
+    "code_regional": "AC",
+    "region": "Île de l'Ascension"
+  },
+  {
+    "code_regional": "AD",
+    "region": "Andorre"
+  },
+  {
+    "code_regional": "AE",
+    "region": "Émirats arabes unis"
+  },
+  {
+    "code_regional": "AF",
+    "region": "Afghanistan"
+  },
+  {
+    "code_regional": "AG",
+    "region": "Antigua-et-Barbuda"
+  },
+  {
+    "code_regional": "AI",
+    "region": "Anguilla"
+  },
+  {
+    "code_regional": "AL",
+    "region": "Albanie"
+  },
+  {
+    "code_regional": "AM",
+    "region": "Arménie"
+  },
+  {
+    "code_regional": "AO",
+    "region": "Angola"
+  },
+  {
+    "code_regional": "AQ",
+    "region": "Antarctique"
+  },
+  {
+    "code_regional": "AR",
+    "region": "Argentine"
+  },
+  {
+    "code_regional": "AS",
+    "region": "Samoa américaines"
+  },
+  {
+    "code_regional": "AT",
+    "region": "Autriche"
+  },
+  {
+    "code_regional": "AU",
+    "region": "Australie"
+  },
+  {
+    "code_regional": "AW",
+    "region": "Aruba"
+  },
+  {
+    "code_regional": "AX",
+    "region": "Îles Åland"
+  },
+  {
+    "code_regional": "AZ",
+    "region": "Azerbaïdjan"
+  },
+  {
+    "code_regional": "BA",
+    "region": "Bosnie-Herzégovine"
+  },
+  {
+    "code_regional": "BB",
+    "region": "Barbade"
+  },
+  {
+    "code_regional": "BD",
+    "region": "Bangladesh"
+  },
+  {
+    "code_regional": "BE",
+    "region": "Belgique"
+  },
+  {
+    "code_regional": "BF",
+    "region": "Burkina Faso"
+  },
+  {
+    "code_regional": "BG",
+    "region": "Bulgarie"
+  },
+  {
+    "code_regional": "BH",
+    "region": "Bahreïn"
+  },
+  {
+    "code_regional": "BI",
+    "region": "Burundi"
+  },
+  {
+    "code_regional": "BJ",
+    "region": "Bénin"
+  },
+  {
+    "code_regional": "BL",
+    "region": "Saint-Barthélemy"
+  },
+  {
+    "code_regional": "BM",
+    "region": "Bermudes"
+  },
+  {
+    "code_regional": "BN",
+    "region": "Brunei"
+  },
+  {
+    "code_regional": "BO",
+    "region": "Bolivie"
+  },
+  {
+    "code_regional": "BQ",
+    "region": "Pays-Bas caribéens"
+  },
+  {
+    "code_regional": "BR",
+    "region": "Brésil"
+  },
+  {
+    "code_regional": "BS",
+    "region": "Bahamas"
+  },
+  {
+    "code_regional": "BT",
+    "region": "Bhoutan"
+  },
+  {
+    "code_regional": "BV",
+    "region": "Bouvet (Île)"
+  },
+  {
+    "code_regional": "BW",
+    "region": "Botswana"
+  },
+  {
+    "code_regional": "BY",
+    "region": "Biélorussie"
+  },
+  {
+    "code_regional": "BZ",
+    "region": "Belize"
+  },
+  {
+    "code_regional": "CA",
+    "region": "Canada"
+  },
+  {
+    "code_regional": "CC",
+    "region": "Cocos ou Keeling (Îles)"
+  },
+  {
+    "code_regional": "CD",
+    "region": "Congo – Kinshasa"
+  },
+  {
+    "code_regional": "CF",
+    "region": "République centrafricaine"
+  },
+  {
+    "code_regional": "CG",
+    "region": "Congo – Brazzaville"
+  },
+  {
+    "code_regional": "CH",
+    "region": "Suisse"
+  },
+  {
+    "code_regional": "CI",
+    "region": "Côte d'Ivoire"
+  },
+  {
+    "code_regional": "CK",
+    "region": "Cook (Îles)"
+  },
+  {
+    "code_regional": "CL",
+    "region": "Chili"
+  },
+  {
+    "code_regional": "CM",
+    "region": "Cameroun"
+  },
+  {
+    "code_regional": "CN",
+    "region": "Chine"
+  },
+  {
+    "code_regional": "CO",
+    "region": "Colombie"
+  },
+  {
+    "code_regional": "CP",
+    "region": "Clipperton (Île)"
+  },
+  {
+    "code_regional": "CR",
+    "region": "Costa Rica"
+  },
+  {
+    "code_regional": "CU",
+    "region": "Cuba"
+  },
+  {
+    "code_regional": "CV",
+    "region": "Cap-Vert"
+  },
+  {
+    "code_regional": "CW",
+    "region": "Curaçao"
+  },
+  {
+    "code_regional": "CX",
+    "region": "Île Christmas"
+  },
+  {
+    "code_regional": "CY",
+    "region": "Chypre"
+  },
+  {
+    "code_regional": "CZ",
+    "region": "Tchéquie"
+  },
+  {
+    "code_regional": "DE",
+    "region": "Allemagne"
+  },
+  {
+    "code_regional": "DG",
+    "region": "Diego Garcia"
+  },
+  {
+    "code_regional": "DJ",
+    "region": "Djibouti"
+  },
+  {
+    "code_regional": "DK",
+    "region": "Danemark"
+  },
+  {
+    "code_regional": "DM",
+    "region": "Dominique"
+  },
+  {
+    "code_regional": "DO",
+    "region": "République dominicaine"
+  },
+  {
+    "code_regional": "DZ",
+    "region": "Algérie"
+  },
+  {
+    "code_regional": "EA",
+    "region": "Ceuta et Melilla"
+  },
+  {
+    "code_regional": "EC",
+    "region": "Équateur"
+  },
+  {
+    "code_regional": "EE",
+    "region": "Estonie"
+  },
+  {
+    "code_regional": "EG",
+    "region": "Égypte"
+  },
+  {
+    "code_regional": "EH",
+    "region": "Sahara oriental"
+  },
+  {
+    "code_regional": "ER",
+    "region": "Érythrée"
+  },
+  {
+    "code_regional": "ES",
+    "region": "Espagne"
+  },
+  {
+    "code_regional": "ET",
+    "region": "Éthiopie"
+  },
+  {
+    "code_regional": "FI",
+    "region": "Finlande"
+  },
+  {
+    "code_regional": "FJ",
+    "region": "Fidji"
+  },
+  {
+    "code_regional": "FK",
+    "region": "Îles Falkland"
+  },
+  {
+    "code_regional": "FM",
+    "region": "Micronésie"
+  },
+  {
+    "code_regional": "FO",
+    "region": "Îles Féroé"
+  },
+  {
+    "code_regional": "FR",
+    "region": "France"
+  },
+  {
+    "code_regional": "GA",
+    "region": "Gabon"
+  },
+  {
+    "code_regional": "Go",
+    "region": "Royaume-Uni"
+  },
+  {
+    "code_regional": "GD",
+    "region": "Grenade"
+  },
+  {
+    "code_regional": "GE",
+    "region": "Géorgie"
+  },
+  {
+    "code_regional": "GF",
+    "region": "Guyane française"
+  },
+  {
+    "code_regional": "GG",
+    "region": "Guernesey"
+  },
+  {
+    "code_regional": "GH",
+    "region": "Ghana"
+  },
+  {
+    "code_regional": "GI",
+    "region": "Gibraltar"
+  },
+  {
+    "code_regional": "GL",
+    "region": "Groenland"
+  },
+  {
+    "code_regional": "GM",
+    "region": "Gambie"
+  },
+  {
+    "code_regional": "GN",
+    "region": "Guinée"
+  },
+  {
+    "code_regional": "MJ",
+    "region": "Guadeloupe"
+  },
+  {
+    "code_regional": "GQ",
+    "region": "Guinée équatoriale"
+  },
+  {
+    "code_regional": "GR",
+    "region": "Grèce"
+  },
+  {
+    "code_regional": "GS",
+    "region": "Îles Géorgie du Sud et Sandwich du Sud"
+  },
+  {
+    "code_regional": "GT",
+    "region": "Guatemala"
+  },
+  {
+    "code_regional": "GU",
+    "region": "Guam"
+  },
+  {
+    "code_regional": "GW",
+    "region": "Guinée-Bissau"
+  },
+  {
+    "code_regional": "GY",
+    "region": "Guyana"
+  },
+  {
+    "code_regional": "HK",
+    "region": "Hong Kong"
+  },
+  {
+    "code_regional": "HM",
+    "region": "Îles Heard et McDonald"
+  },
+  {
+    "code_regional": "HN",
+    "region": "Honduras"
+  },
+  {
+    "code_regional": "RH",
+    "region": "Croatie"
+  },
+  {
+    "code_regional": "HT",
+    "region": "Haïti"
+  },
+  {
+    "code_regional": "UP",
+    "region": "Hongrie"
+  },
+  {
+    "code_regional": "IC",
+    "region": "Les Canaries"
+  },
+  {
+    "code_regional": "ID",
+    "region": "Indonésie"
+  },
+  {
+    "code_regional": "IE",
+    "region": "Irlande"
+  },
+  {
+    "code_regional": "IL",
+    "region": "Israël"
+  },
+  {
+    "code_regional": "IM",
+    "region": "Man (Île)"
+  },
+  {
+    "code_regional": "IN",
+    "region": "Inde"
+  },
+  {
+    "code_regional": "IO",
+    "region": "Territoire britannique de l'océan Indien"
+  },
+  {
+    "code_regional": "IQ",
+    "region": "Irak"
+  },
+  {
+    "code_regional": "IR",
+    "region": "Iran"
+  },
+  {
+    "code_regional": "IS",
+    "region": "Islande"
+  },
+  {
+    "code_regional": "IT",
+    "region": "Italie"
+  },
+  {
+    "code_regional": "JE",
+    "region": "Jersey"
+  },
+  {
+    "code_regional": "JM",
+    "region": "Jamaïque"
+  },
+  {
+    "code_regional": "JO",
+    "region": "Jordanie"
+  },
+  {
+    "code_regional": "Japon",
+    "region": "Japon"
+  },
+  {
+    "code_regional": "KE",
+    "region": "Kenya"
+  },
+  {
+    "code_regional": "KG",
+    "region": "Kirghizstan"
+  },
+  {
+    "code_regional": "KH",
+    "region": "Cambodge"
+  },
+  {
+    "code_regional": "KI",
+    "region": "Kiribati"
+  },
+  {
+    "code_regional": "KM",
+    "region": "Comores"
+  },
+  {
+    "code_regional": "KN",
+    "region": "Saint-Christophe-et-Niévès"
+  },
+  {
+    "code_regional": "KP",
+    "region": "Corée du Nord"
+  },
+  {
+    "code_regional": "KR",
+    "region": "Corée du Sud"
+  },
+  {
+    "code_regional": "KW",
+    "region": "Koweït"
+  },
+  {
+    "code_regional": "KY",
+    "region": "Caïmans (Îles)"
+  },
+  {
+    "code_regional": "KZ",
+    "region": "Kazakhstan"
+  },
+  {
+    "code_regional": "LA",
+    "region": "Laos"
+  },
+  {
+    "code_regional": "LB",
+    "region": "Liban"
+  },
+  {
+    "code_regional": "LC",
+    "region": "Sainte-Lucie"
+  },
+  {
+    "code_regional": "LI",
+    "region": "Liechtenstein"
+  },
+  {
+    "code_regional": "LK",
+    "region": "Sri Lanka"
+  },
+  {
+    "code_regional": "LR",
+    "region": "Liberia"
+  },
+  {
+    "code_regional": "LS",
+    "region": "Lesotho"
+  },
+  {
+    "code_regional": "LT",
+    "region": "Lituanie"
+  },
+  {
+    "code_regional": "LU",
+    "region": "Luxembourg"
+  },
+  {
+    "code_regional": "LV",
+    "region": "Lettonie"
+  },
+  {
+    "code_regional": "LY",
+    "region": "Libye"
+  },
+  {
+    "code_regional": "MA",
+    "region": "Maroc"
+  },
+  {
+    "code_regional": "MC",
+    "region": "Monaco"
+  },
+  {
+    "code_regional": "MD",
+    "region": "Moldavie"
+  },
+  {
+    "code_regional": "ME",
+    "region": "Monténégro"
+  },
+  {
+    "code_regional": "MF",
+    "region": "Saint-Martin"
+  },
+  {
+    "code_regional": "MG",
+    "region": "Madagascar"
+  },
+  {
+    "code_regional": "MH",
+    "region": "Marshall (Îles)"
+  },
+  {
+    "code_regional": "MK",
+    "region": "Macédoine du Nord"
+  },
+  {
+    "code_regional": "ML",
+    "region": "Mali"
+  },
+  {
+    "code_regional": "MM",
+    "region": "Myanmar (Birmanie)"
+  },
+  {
+    "code_regional": "MN",
+    "region": "Mongolie"
+  },
+  {
+    "code_regional": "MO",
+    "region": "Macao"
+  },
+  {
+    "code_regional": "MP",
+    "region": "Îles Mariannes du Nord"
+  },
+  {
+    "code_regional": "MQ",
+    "region": "Martinique"
+  },
+  {
+    "code_regional": "MR",
+    "region": "Mauritanie"
+  },
+  {
+    "code_regional": "MS",
+    "region": "Montserrat"
+  },
+  {
+    "code_regional": "MT",
+    "region": "Malte"
+  },
+  {
+    "code_regional": "MU",
+    "region": "Maurice (Île)"
+  },
+  {
+    "code_regional": "MV",
+    "region": "Maldives"
+  },
+  {
+    "code_regional": "MW",
+    "region": "Malawi"
+  },
+  {
+    "code_regional": "MX",
+    "region": "Mexique"
+  },
+  {
+    "code_regional": "MY",
+    "region": "Malaisie"
+  },
+  {
+    "code_regional": "MZ",
+    "region": "Mozambique"
+  },
+  {
+    "code_regional": "N/A",
+    "region": "Namibie"
+  },
+  {
+    "code_regional": "NC",
+    "region": "Nouvelle-Calédonie"
+  },
+  {
+    "code_regional": "NE",
+    "region": "Niger"
+  },
+  {
+    "code_regional": "NF",
+    "region": "Île Norfolk"
+  },
+  {
+    "code_regional": "NON",
+    "region": "Nigeria"
+  },
+  {
+    "code_regional": "NI",
+    "region": "Nicaragua"
+  },
+  {
+    "code_regional": "NL",
+    "region": "Pays-Bas"
+  },
+  {
+    "code_regional": "NON",
+    "region": "Norvège"
+  },
+  {
+    "code_regional": "NP",
+    "region": "Népal"
+  },
+  {
+    "code_regional": "NR",
+    "region": "Nauru"
+  },
+  {
+    "code_regional": "NU",
+    "region": "Niue"
+  },
+  {
+    "code_regional": "NZ",
+    "region": "Nouvelle-Zélande"
+  },
+  {
+    "code_regional": "OM",
+    "region": "Oman"
+  },
+  {
+    "code_regional": "PA",
+    "region": "Panama"
+  },
+  {
+    "code_regional": "PE",
+    "region": "Pérou"
+  },
+  {
+    "code_regional": "PF",
+    "region": "Polynésie française"
+  },
+  {
+    "code_regional": "PG",
+    "region": "Papouasie-Nouvelle-Guinée"
+  },
+  {
+    "code_regional": "PH",
+    "region": "Philippines"
+  },
+  {
+    "code_regional": "PK",
+    "region": "Pakistan"
+  },
+  {
+    "code_regional": "PL",
+    "region": "Pologne"
+  },
+  {
+    "code_regional": "PM",
+    "region": "Saint-Pierre-et-Miquelon"
+  },
+  {
+    "code_regional": "PN",
+    "region": "Îles Pitcairn"
+  },
+  {
+    "code_regional": "PR",
+    "region": "Porto Rico"
+  },
+  {
+    "code_regional": "PS",
+    "region": "Palestine"
+  },
+  {
+    "code_regional": "PT",
+    "region": "Portugal"
+  },
+  {
+    "code_regional": "PW",
+    "region": "Palaos"
+  },
+  {
+    "code_regional": "PY",
+    "region": "Paraguay"
+  },
+  {
+    "code_regional": "QA",
+    "region": "Qatar"
+  },
+  {
+    "code_regional": "RE",
+    "region": "La Réunion"
+  },
+  {
+    "code_regional": "RO",
+    "region": "Roumanie"
+  },
+  {
+    "code_regional": "RS",
+    "region": "Serbie"
+  },
+  {
+    "code_regional": "RU",
+    "region": "Russie"
+  },
+  {
+    "code_regional": "RW",
+    "region": "Rwanda"
+  },
+  {
+    "code_regional": "SA",
+    "region": "Arabie saoudite"
+  },
+  {
+    "code_regional": "SB",
+    "region": "Îles Salomon"
+  },
+  {
+    "code_regional": "SC",
+    "region": "Seychelles"
+  },
+  {
+    "code_regional": "SD",
+    "region": "Soudan"
+  },
+  {
+    "code_regional": "SE",
+    "region": "Suède"
+  },
+  {
+    "code_regional": "SG",
+    "region": "Singapour"
+  },
+  {
+    "code_regional": "SH",
+    "region": "Sainte-Hélène"
+  },
+  {
+    "code_regional": "SI",
+    "region": "Slovénie"
+  },
+  {
+    "code_regional": "SJ",
+    "region": "Svalbard et Jan Mayen"
+  },
+  {
+    "code_regional": "SK",
+    "region": "Slovaquie"
+  },
+  {
+    "code_regional": "SL",
+    "region": "Sierra Leone"
+  },
+  {
+    "code_regional": "SM",
+    "region": "Saint-Marin"
+  },
+  {
+    "code_regional": "SN",
+    "region": "Sénégal"
+  },
+  {
+    "code_regional": "SO",
+    "region": "Somalie"
+  },
+  {
+    "code_regional": "SR",
+    "region": "Suriname"
+  },
+  {
+    "code_regional": "SS",
+    "region": "Soudan du Sud"
+  },
+  {
+    "code_regional": "ST",
+    "region": "Sao Tomé-et-Principe"
+  },
+  {
+    "code_regional": "SV",
+    "region": "El Salvador"
+  },
+  {
+    "code_regional": "SX",
+    "region": "Sint-Maarten"
+  },
+  {
+    "code_regional": "SY",
+    "region": "Syrie"
+  },
+  {
+    "code_regional": "SZ",
+    "region": "Eswatini"
+  },
+  {
+    "code_regional": "TA",
+    "region": "Tristan da Cunha"
+  },
+  {
+    "code_regional": "TC",
+    "region": "Îles Turks-et-Caïcos"
+  },
+  {
+    "code_regional": "TD",
+    "region": "Tchad"
+  },
+  {
+    "code_regional": "TF",
+    "region": "Terres australes et antarctiques françaises"
+  },
+  {
+    "code_regional": "TG",
+    "region": "Togo"
+  },
+  {
+    "code_regional": "TH",
+    "region": "Thaïlande"
+  },
+  {
+    "code_regional": "TJ",
+    "region": "Tadjikistan"
+  },
+  {
+    "code_regional": "TK",
+    "region": "Tokelau"
+  },
+  {
+    "code_regional": "TL",
+    "region": "Timor-Leste"
+  },
+  {
+    "code_regional": "TM",
+    "region": "Turkménistan"
+  },
+  {
+    "code_regional": "TN",
+    "region": "Tunisie"
+  },
+  {
+    "code_regional": "TO",
+    "region": "Tonga"
+  },
+  {
+    "code_regional": "TR",
+    "region": "Turquie"
+  },
+  {
+    "code_regional": "TT",
+    "region": "Trinité-et-Tobago"
+  },
+  {
+    "code_regional": "TV",
+    "region": "Tuvalu"
+  },
+  {
+    "code_regional": "TW",
+    "region": "Taïwan"
+  },
+  {
+    "code_regional": "TZ",
+    "region": "Tanzanie"
+  },
+  {
+    "code_regional": "UA",
+    "region": "Ukraine"
+  },
+  {
+    "code_regional": "UG",
+    "region": "Ouganda"
+  },
+  {
+    "code_regional": "UM",
+    "region": "Îles mineures éloignées des États-Unis"
+  },
+  {
+    "code_regional": "États-Unis",
+    "region": "États-Unis"
+  },
+  {
+    "code_regional": "UY",
+    "region": "Uruguay"
+  },
+  {
+    "code_regional": "UZ",
+    "region": "Ouzbékistan"
+  },
+  {
+    "code_regional": "VA",
+    "region": "Vatican"
+  },
+  {
+    "code_regional": "VC",
+    "region": "Saint-Vincent-et-les-Grenadines"
+  },
+  {
+    "code_regional": "VE",
+    "region": "Venezuela"
+  },
+  {
+    "code_regional": "VG",
+    "region": "Îles Vierges britanniques"
+  },
+  {
+    "code_regional": "VI",
+    "region": "Îles Vierges américaines"
+  },
+  {
+    "code_regional": "VN",
+    "region": "Viêt Nam"
+  },
+  {
+    "code_regional": "VU",
+    "region": "Vanuatu"
+  },
+  {
+    "code_regional": "WF",
+    "region": "Wallis-et-Futuna"
+  },
+  {
+    "code_regional": "WS",
+    "region": "Samoa"
+  },
+  {
+    "code_regional": "XK",
+    "region": "Kosovo"
+  },
+  {
+    "code_regional": "YE",
+    "region": "Yémen"
+  },
+  {
+    "code_regional": "YT",
+    "region": "Mayotte"
+  },
+  {
+    "code_regional": "ZA",
+    "region": "Afrique du Sud"
+  },
+  {
+    "code_regional": "ZM",
+    "region": "Zambie"
+  },
+  {
+    "code_regional": "ZW",
+    "region": "Zimbabwe"
+  }
+]
