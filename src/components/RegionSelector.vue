@@ -74,7 +74,7 @@ const selectedRegion = defineModel({
   </template>
   <style scoped>
   .dropdown-menu {
-    color: white;
+    color: #ff9bee;
     user-select: none;
     font-family: Arial, sans-serif;
     display: flex;

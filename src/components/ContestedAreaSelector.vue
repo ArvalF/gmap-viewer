@@ -14,12 +14,28 @@ const selectedArea = defineModel({
   const search = ref('');
   const dropDownMenuRef = ref(null);
   
-  const filteredAreas = computed(() => {
-    if (!search.value) return contestedArea;
-    return contestedArea.filter((area) =>
-      area.name.toLowerCase().includes(search.value.toLowerCase())
-    );
-  });
+  // const filteredAreas = computed(() => {
+  //   if (!search.value) return contestedArea;
+  //   return contestedArea.filter((area) =>
+  //     area.name.toLowerCase().includes(search.value.toLowerCase())
+  //   );
+  // });
+
+  const groupedAreas = computed<Record<string, ContestedArea[]>>(() => {
+  const areas = search.value
+    ? contestedArea.filter(area =>
+        area.name.toLowerCase().includes(search.value.toLowerCase())
+      )
+    : contestedArea;
+
+  return areas.reduce((acc, area) => {
+    if (!acc[area.region]) {
+      acc[area.region] = [];
+    }
+    acc[area.region].push(area);
+    return acc;
+  }, {} as Record<string, ContestedArea[]>);
+});
   
   function toggleDropdown() {
     isOpen.value = !isOpen.value;
@@ -33,12 +49,10 @@ const selectedArea = defineModel({
     search.value = '';
   }
   
-  function selectArea(AreaName) {
+  function selectArea(area: contestedArea) {
     isOpen.value = false;
     search.value = '';
-    console.log(contestedArea.find(area => area.name === AreaName));
-    console.log(AreaName);
-    selectedArea.value = contestedArea.find(area => area.name === AreaName);
+    selectedArea.value = area
   }
   
   onClickOutside(dropDownMenuRef, () => {
@@ -59,15 +73,33 @@ const selectedArea = defineModel({
           class="search-input"
         />
         <ul class="dropdown-list">
-          <li
+          <template v-for="(areas, region) in groupedAreas" :key="region">
+    
+    <!-- Région -->
+    <li class="dropdown-region">
+      {{ region }}
+    </li>
+
+    <!-- Zones -->
+    <li
+      v-for="area in areas"
+      :key="area.name"
+      @click="selectArea(area)"
+      class="dropdown-item"
+    >
+      {{ area.name }}
+    </li>
+
+  </template>
+          <!-- <li
             v-for="area in filteredAreas"
             :key="area.name"
             @click="selectArea(area.name)"
             class="dropdown-item"
           >
             {{ area.name }}
-          </li>
-          <li v-if="filteredAreas.length === 0" class="dropdown-no-result">
+          </li> -->
+          <li v-if="groupedAreas.length === 0" class="dropdown-no-result">
             Aucun résultat
           </li>
         </ul>
@@ -76,7 +108,7 @@ const selectedArea = defineModel({
   </template>
   <style scoped>
   .dropdown-menu {
-    color: white;
+    color: #ff9bee;
     user-select: none;
     font-family: Arial, sans-serif;
     display: flex;
@@ -128,10 +160,19 @@ const selectedArea = defineModel({
     position: sticky;
   }
   
-  .dropdown-item {
-    padding: 8px;
-    cursor: pointer;
-  }
+.dropdown-region {
+  padding: 6px 8px;
+  font-weight: bold;
+  background-color: #111;
+  color: #BCF4DE;
+  cursor: default;
+  border-top: 1px solid #333;
+}
+
+.dropdown-item {
+  padding: 8px 16px; /* indentation visuelle */
+  cursor: pointer;
+}
   
   /* .dropdown-item:hover {
     background: #eee;

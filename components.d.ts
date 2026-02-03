@@ -12,20 +12,15 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ContestedAreaSelector: typeof import('./src/components/ContestedAreaSelector.vue')['default']
-    copy: typeof import('./src/components/RegionSelector copy.vue')['default']
+    GoogleMap: typeof import('./src/components/GoogleMap.vue')['default']
     GoogleMapSession: typeof import('./src/components/GoogleMapSession.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
-    Map: typeof import('./src/components/Map.vue')['default']
-    MapC: typeof import('./src/components/MapC.vue')['default']
     MapComparator: typeof import('./src/components/MapComparator.vue')['default']
-    MapViewer: typeof import('./src/components/MapViewer.vue')['default']
+    OsmMap: typeof import('./src/components/OsmMap.vue')['default']
     RegionSelector: typeof import('./src/components/RegionSelector.vue')['default']
-    TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
-    WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
 }

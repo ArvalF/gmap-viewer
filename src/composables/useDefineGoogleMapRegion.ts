@@ -672,7 +672,7 @@ const regions = [
     "region": "Île Norfolk"
   },
   {
-    "code_regional": "NON",
+    "code_regional": "NG",
     "region": "Nigeria"
   },
   {
@@ -684,7 +684,7 @@ const regions = [
     "region": "Pays-Bas"
   },
   {
-    "code_regional": "NON",
+    "code_regional": "NO",
     "region": "Norvège"
   },
   {

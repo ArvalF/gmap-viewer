@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { ContestedArea } from "@/types/globals";
-import Map from './Map.vue';
+import GoogleMap from './GoogleMap.vue';
+import OsmMap from "./OsmMap.vue";
 import { Map as olMap } from 'ol';
 import {v4 as uuidv4} from 'uuid';
 
@@ -8,12 +9,12 @@ import {v4 as uuidv4} from 'uuid';
 const props = defineProps<{
     contestedArea:  ContestedArea
 }>();
-const mapCount = ref(props.contestedArea.regions.length);
+const mapCount = ref(props.contestedArea.googleObserver.length);
 
 const contestedAreaWithId = computed(() => {
-  let ret = props.contestedArea.regions.map(region => {
-    region.id = uuidv4();
-    return region;
+  let ret = props.contestedArea.googleObserver.map(observer => {
+    observer.id = uuidv4();
+    return observer;
   });
   return ret
 });
@@ -35,15 +36,24 @@ function updateSyncMaps(updatedMap: MapWithId) {
 
 <template>
     <div class="maps-container">
-      <Map v-for="region in contestedAreaWithId" 
-      :key="region.id" 
-      :id="region.id"
+      <GoogleMap v-for="observer in contestedAreaWithId" 
+      :key="observer.id" 
+      :id="observer.id"
       :center="contestedArea.center" 
       :zoom="contestedArea.zoom" 
-      :region="region"
-      :sync-maps="syncMaps.filter(m => m.id !== region.id).map(m => m.map as olMap)"
+      :observer="observer"
+      :sync-maps="syncMaps.filter(m => m.id !== observer.id).map(m => m.map as olMap)"
       @map:update="updateSyncMaps">
-      </Map>
+      </GoogleMap>
+      <OsmMap
+      :key="'osm-'+contestedArea.name" 
+      :id="'osm-'+contestedArea.name"
+      :center="contestedArea.center" 
+      :zoom="contestedArea.zoom" 
+      :sync-maps="syncMaps.filter(m => m.id !== 'osm-'+contestedArea.name).map(m => m.map as olMap)"
+      @map:update="updateSyncMaps">
+      >
+      </OsmMap> 
   </div>
 </template>
 

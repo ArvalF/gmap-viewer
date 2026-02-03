@@ -1,6 +1,6 @@
 {
-  "name": "ol-map-geopo",
-  "version": "0.0.0",
+  "name": "gmap-viewer",
+  "version": "0.0.2",
   "private": true,
   "type": "module",
   "engines": {
@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build"
+    "type-check": "vue-tsc --build",
+    "deploy": "npm run build-only && cd dist && git add . && git commit -m \"Deploy build $(date +'%Y-%m-%d %H:%M:%S')\" && git push -f origin HEAD:deploy && cd .."
   },
   "dependencies": {
     "@vueuse/core": "^14.0.0",

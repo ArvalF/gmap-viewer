@@ -5,5 +5,6 @@ export interface ContestedArea{
     description: string;
     center: [number, number];
     zoom: number,
-    regions: GoogleMapRegion[];
+    googleObserver: GoogleMapRegion[];
+    region: string
 }

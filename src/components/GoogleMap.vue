@@ -5,7 +5,7 @@ import type { Map as olMap } from 'ol';
 const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
 
 const props = defineProps({
-    region: { type: Object as PropType<GoogleMapRegion> },
+    observer: { type: Object as PropType<GoogleMapRegion> },
     id: String,
     center: Array,
     zoom: Number,
@@ -13,7 +13,7 @@ const props = defineProps({
 })
 const center = ref(props.center);
 const zoom = ref(6);
-const selectedRegion = ref(props.region);
+const selectedObserver = ref(props.observer);
 const mapRef = ref(null);
 
 const emit = defineEmits(['map:update']);
@@ -25,12 +25,22 @@ function SetLoadingStatus(status: boolean) {
 onMounted(() => {
     emit('map:update', {map : mapRef.value.map, id : props.id});
 });
+
+/**
+ * TODO 
+ * 
+ * MapTiler
+ * Mapbox
+ * OSM
+ * 
+ * 
+ */
 </script>
 
 <template>
   <div class="map-container">
     <RegionSelector
-      v-model="selectedRegion"
+      v-model="selectedObserver"
     />
     <br>
       <ol-map 
@@ -38,9 +48,12 @@ onMounted(() => {
       id="id"
       class="map" 
       :class="{ 'ol-map-loading': mapIsLoading }">
-        <ol-view :center="center" :zoom="zoom" />
+        <ol-view :center="center" 
+        :zoom="zoom"
+        :minZoom="4"
+        :maxZoom="10" />
         <ol-tile-layer>
-        <GoogleMapSession :api-key="apiKey" :code_regional="selectedRegion.code_regional"
+        <GoogleMapSession :api-key="apiKey" :code_regional="selectedObserver.code_regional"
           @loading-status-change="SetLoadingStatus"  
         >
           <template #default="{ session, expiry, tileUrl }">
