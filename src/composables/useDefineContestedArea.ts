@@ -2,70 +2,12 @@ import type { ContestedArea } from "@/types/globals";
 
 const useDefineContestedArea = (): ContestedArea[] => {
     return [
-        {
-            name: 'Cashmere Region',
-            description: '',
-            center: [8405627.126464, 4114758.106648],
-            zoom: 5,
-            googleObserver: [
-                { code_regional: "CN", region: "Chine" },
-                { code_regional: "IN", region: "Inde" },
-                { code_regional: "PK", region: "Pakistan" },
-            ],
-            region : "Himalaya"
-        },
-        {
-            name: 'Arunashal Pradesh',
-            description: '',
-            center: [10511620.129777, 3282511.742679],
-            zoom: 5,
-            googleObserver: [
-                { code_regional: "CN", region: "Chine" },
-                { code_regional: "IN", region: "Inde" },
-                { code_regional: "PK", region: "Pakistan" },
-            ],
-            region : "Himalaya"
-        },
-        {
-            name: 'Bhoutan',
-            description: '',
-            center: [10058072.680809, 3188158.554238],
-            zoom: 8,
-            googleObserver: [
-                { code_regional: "CN", region: "Chine" },
-                { code_regional: "BT", region: "Bhoutan" },
-            ],
-            region : "Himalaya"
-        },
-        {
-            name: 'Israel / Palestine',
-            description: '',
-            center: [3875663.082172, 3769262.738799],
-            zoom: 5,
-            googleObserver: [
-                { code_regional: "IL", region: "Israël" },
-                { code_regional: "PS", region: "Palestine" },
-                { code_regional: "FR", region: "France" },
-                { code_regional: "US", region: "États-Unis" },
-            ],
-            region : "Moyen Orient"
-        },
-        {
-            name: 'Ukraine / Russie',
-            description: '',
-            center: [3801060.542565, 5674684.979891],
-            zoom: 7,
-            googleObserver: [
-                { code_regional: "UA", region: "Ukraine" },
-                { code_regional: "RU", region: "Russie" },
-            ],
-            region : "Europe"
-        },
+
         {
             name: 'Taïwan',
             description: '',
             center: [13345293.642365, 2827558.550325],
-            zoom: 7,
+            zoom: 5,
             googleObserver: [
                 { code_regional: "CN", region: "Chine" },
                 { code_regional: "TW", region: "Taïwan" },
@@ -106,6 +48,41 @@ const useDefineContestedArea = (): ContestedArea[] => {
             ],
             region : "Asie de l'Est"
         },
+                {
+            name: 'Cashmere Region',
+            description: '',
+            center: [8405627.126464, 4114758.106648],
+            zoom: 5,
+            googleObserver: [
+                { code_regional: "CN", region: "Chine" },
+                { code_regional: "IN", region: "Inde" },
+                { code_regional: "PK", region: "Pakistan" },
+            ],
+            region : "Himalaya"
+        },
+        {
+            name: 'Arunashal Pradesh',
+            description: '',
+            center: [10511620.129777, 3282511.742679],
+            zoom: 5,
+            googleObserver: [
+                { code_regional: "CN", region: "Chine" },
+                { code_regional: "IN", region: "Inde" },
+                { code_regional: "PK", region: "Pakistan" },
+            ],
+            region : "Himalaya"
+        },
+        {
+            name: 'Bhoutan',
+            description: '',
+            center: [10058072.680809, 3188158.554238],
+            zoom: 8,
+            googleObserver: [
+                { code_regional: "CN", region: "Chine" },
+                { code_regional: "BT", region: "Bhoutan" },
+            ],
+            region : "Himalaya"
+        },
         {
             name: 'Hong-Kong',
             description: '',
@@ -128,6 +105,64 @@ const useDefineContestedArea = (): ContestedArea[] => {
                 { code_regional: "ET", region: "Éthiopie" },
             ],
             region : "Afrique"
+        },
+        {
+            name: 'Israel / Palestine',
+            description: '',
+            center: [3875663.082172, 3769262.738799],
+            zoom: 5,
+            googleObserver: [
+                { code_regional: "IL", region: "Israël" },
+                { code_regional: "PS", region: "Palestine" },
+                { code_regional: "FR", region: "France" },
+                { code_regional: "US", region: "États-Unis" },
+            ],
+            region : "Moyen Orient"
+        },
+        {
+            name: 'Ukraine / Russie',
+            description: '',
+            center: [3801060.542565, 5674684.979891],
+            zoom: 7,
+            googleObserver: [
+                { code_regional: "UA", region: "Ukraine" },
+                { code_regional: "RU", region: "Russie" },
+            ],
+            region : "Europe"
+        },
+        {
+            name: 'Chypre',
+            description: '',
+            center: [3714839.574660, 4172850.248144],
+            zoom: 8,
+            googleObserver: [
+                { code_regional: "CY", region: "Chypre" },
+                { code_regional: "TR", region: "Turquie" },
+            ],
+            region : "Europe"
+        },
+        {
+            name: 'Mont Blanc',
+            description: '',
+            center: [764370.282852, 5753243.135712],
+            zoom: 14,
+            googleObserver: [
+                { code_regional: "IT", region: "Italie" },
+                { code_regional: "FR", region: "France" },
+            ],
+            region : "Europe"
+        },
+
+        {
+            name: 'Croatie Serbie',
+            description: '',
+            center: [2105840.129257, 5740115.076104],
+            zoom: 10,
+            googleObserver: [
+                { code_regional: "RH", region: "Croatie" },
+                { code_regional: "RS", region: "Serbie" },
+            ],
+            region : "Europe"
         },
         {
             name: 'Golf du Mexique',

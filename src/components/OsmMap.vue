@@ -44,8 +44,7 @@ onMounted(() => {
         <ol-view
         :center="center"
         :zoom="zoom"
-        :minZoom="4"
-        :maxZoom="10"/>
+        :minZoom="4"/>
         <ol-tile-layer>
           <ol-source-osm />
         </ol-tile-layer>

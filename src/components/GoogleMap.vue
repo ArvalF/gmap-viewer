@@ -12,7 +12,7 @@ const props = defineProps({
     syncMaps: { type: Array as PropType<Array<olMap>> }
 })
 const center = ref(props.center);
-const zoom = ref(6);
+const zoom = ref(props.zoom);
 const selectedObserver = ref(props.observer);
 const mapRef = ref(null);
 
@@ -50,8 +50,7 @@ onMounted(() => {
       :class="{ 'ol-map-loading': mapIsLoading }">
         <ol-view :center="center" 
         :zoom="zoom"
-        :minZoom="4"
-        :maxZoom="10" />
+        :minZoom="4"/>
         <ol-tile-layer>
         <GoogleMapSession :api-key="apiKey" :code_regional="selectedObserver.code_regional"
           @loading-status-change="SetLoadingStatus"  
